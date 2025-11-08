@@ -6,6 +6,19 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		7120374A6D9121527B2B7E8F /* Pods_PoseCoach.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02C2E5E86F3BD9DC9B7B42D2 /* Pods_PoseCoach.framework */; };
+		7E54540E2EBB675B00D8FEEE /* pose_landmarker_lite.task in Resources */ = {isa = PBXBuildFile; fileRef = 7E54540D2EBB675B00D8FEEE /* pose_landmarker_lite.task */; };
+		7E54540F2EBB675B00D8FEEE /* pose_landmarker_lite.task in Resources */ = {isa = PBXBuildFile; fileRef = 7E54540D2EBB675B00D8FEEE /* pose_landmarker_lite.task */; };
+		7E5454102EBB675B00D8FEEE /* pose_landmarker_lite.task in Resources */ = {isa = PBXBuildFile; fileRef = 7E54540D2EBB675B00D8FEEE /* pose_landmarker_lite.task */; };
+		7E54A5232EBFF67900FE8611 /* pose_landmarker_full.task in Resources */ = {isa = PBXBuildFile; fileRef = 7E54A5222EBFF67900FE8611 /* pose_landmarker_full.task */; };
+		7E54A5242EBFF67900FE8611 /* pose_landmarker_full.task in Resources */ = {isa = PBXBuildFile; fileRef = 7E54A5222EBFF67900FE8611 /* pose_landmarker_full.task */; };
+		7E54A5252EBFF67900FE8611 /* pose_landmarker_full.task in Resources */ = {isa = PBXBuildFile; fileRef = 7E54A5222EBFF67900FE8611 /* pose_landmarker_full.task */; };
+		7E81763C2EBFECD7008EF28D /* pose_landmarker_heavy.task in Resources */ = {isa = PBXBuildFile; fileRef = 7E81763B2EBFECD7008EF28D /* pose_landmarker_heavy.task */; };
+		7E81763D2EBFECD7008EF28D /* pose_landmarker_heavy.task in Resources */ = {isa = PBXBuildFile; fileRef = 7E81763B2EBFECD7008EF28D /* pose_landmarker_heavy.task */; };
+		7E81763E2EBFECD7008EF28D /* pose_landmarker_heavy.task in Resources */ = {isa = PBXBuildFile; fileRef = 7E81763B2EBFECD7008EF28D /* pose_landmarker_heavy.task */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		7E15317E2EBB600F0070DE01 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,9 +37,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02C2E5E86F3BD9DC9B7B42D2 /* Pods_PoseCoach.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PoseCoach.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E15316E2EBB600E0070DE01 /* PoseCoach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoseCoach.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E15317D2EBB600F0070DE01 /* PoseCoachTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoseCoachTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E1531872EBB600F0070DE01 /* PoseCoachUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoseCoachUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E54540D2EBB675B00D8FEEE /* pose_landmarker_lite.task */ = {isa = PBXFileReference; lastKnownFileType = file; path = pose_landmarker_lite.task; sourceTree = "<group>"; };
+		7E54A5222EBFF67900FE8611 /* pose_landmarker_full.task */ = {isa = PBXFileReference; lastKnownFileType = file; path = pose_landmarker_full.task; sourceTree = "<group>"; };
+		7E81763B2EBFECD7008EF28D /* pose_landmarker_heavy.task */ = {isa = PBXFileReference; lastKnownFileType = file; path = pose_landmarker_heavy.task; sourceTree = "<group>"; };
+		8ECA87ED1F8000FB5C29E884 /* Pods-PoseCoach.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoseCoach.release.xcconfig"; path = "Target Support Files/Pods-PoseCoach/Pods-PoseCoach.release.xcconfig"; sourceTree = "<group>"; };
+		F4B5B21D598A095598A5405F /* Pods-PoseCoach.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoseCoach.debug.xcconfig"; path = "Target Support Files/Pods-PoseCoach/Pods-PoseCoach.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -52,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7120374A6D9121527B2B7E8F /* Pods_PoseCoach.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,13 +92,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		50B3636C93D23CB04B669338 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4B5B21D598A095598A5405F /* Pods-PoseCoach.debug.xcconfig */,
+				8ECA87ED1F8000FB5C29E884 /* Pods-PoseCoach.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		7E1531652EBB600E0070DE01 = {
 			isa = PBXGroup;
 			children = (
+				7E54A5222EBFF67900FE8611 /* pose_landmarker_full.task */,
+				7E81763B2EBFECD7008EF28D /* pose_landmarker_heavy.task */,
+				7E54540D2EBB675B00D8FEEE /* pose_landmarker_lite.task */,
 				7E1531702EBB600E0070DE01 /* PoseCoach */,
 				7E1531802EBB600F0070DE01 /* PoseCoachTests */,
 				7E15318A2EBB600F0070DE01 /* PoseCoachUITests */,
 				7E15316F2EBB600E0070DE01 /* Products */,
+				50B3636C93D23CB04B669338 /* Pods */,
+				D79109BE886D4B07FD468F33 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +126,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		D79109BE886D4B07FD468F33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02C2E5E86F3BD9DC9B7B42D2 /* Pods_PoseCoach.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -99,6 +141,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E1531912EBB600F0070DE01 /* Build configuration list for PBXNativeTarget "PoseCoach" */;
 			buildPhases = (
+				A88471F7F0CC8974E9DA0A85 /* [CP] Check Pods Manifest.lock */,
 				7E15316A2EBB600E0070DE01 /* Sources */,
 				7E15316B2EBB600E0070DE01 /* Frameworks */,
 				7E15316C2EBB600E0070DE01 /* Resources */,
@@ -111,8 +154,6 @@
 				7E1531702EBB600E0070DE01 /* PoseCoach */,
 			);
 			name = PoseCoach;
-			packageProductDependencies = (
-			);
 			productName = PoseCoach;
 			productReference = 7E15316E2EBB600E0070DE01 /* PoseCoach.app */;
 			productType = "com.apple.product-type.application";
@@ -134,8 +175,6 @@
 				7E1531802EBB600F0070DE01 /* PoseCoachTests */,
 			);
 			name = PoseCoachTests;
-			packageProductDependencies = (
-			);
 			productName = PoseCoachTests;
 			productReference = 7E15317D2EBB600F0070DE01 /* PoseCoachTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -157,8 +196,6 @@
 				7E15318A2EBB600F0070DE01 /* PoseCoachUITests */,
 			);
 			name = PoseCoachUITests;
-			packageProductDependencies = (
-			);
 			productName = PoseCoachUITests;
 			productReference = 7E1531872EBB600F0070DE01 /* PoseCoachUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -212,6 +249,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E81763C2EBFECD7008EF28D /* pose_landmarker_heavy.task in Resources */,
+				7E5454102EBB675B00D8FEEE /* pose_landmarker_lite.task in Resources */,
+				7E54A5242EBFF67900FE8611 /* pose_landmarker_full.task in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +259,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E81763D2EBFECD7008EF28D /* pose_landmarker_heavy.task in Resources */,
+				7E54A5252EBFF67900FE8611 /* pose_landmarker_full.task in Resources */,
+				7E54540E2EBB675B00D8FEEE /* pose_landmarker_lite.task in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,10 +269,38 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E81763E2EBFECD7008EF28D /* pose_landmarker_heavy.task in Resources */,
+				7E54A5232EBFF67900FE8611 /* pose_landmarker_full.task in Resources */,
+				7E54540F2EBB675B00D8FEEE /* pose_landmarker_lite.task in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A88471F7F0CC8974E9DA0A85 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PoseCoach-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7E15316A2EBB600E0070DE01 /* Sources */ = {
@@ -271,6 +342,7 @@
 /* Begin XCBuildConfiguration section */
 		7E15318F2EBB600F0070DE01 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4B5B21D598A095598A5405F /* Pods-PoseCoach.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -335,6 +407,7 @@
 		};
 		7E1531902EBB600F0070DE01 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8ECA87ED1F8000FB5C29E884 /* Pods-PoseCoach.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -392,6 +465,7 @@
 		};
 		7E1531922EBB600F0070DE01 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4B5B21D598A095598A5405F /* Pods-PoseCoach.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -400,6 +474,7 @@
 				DEVELOPMENT_TEAM = JJ36HN239D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Pose analysis needs the camera";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -424,6 +499,7 @@
 		};
 		7E1531932EBB600F0070DE01 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8ECA87ED1F8000FB5C29E884 /* Pods-PoseCoach.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -432,6 +508,7 @@
 				DEVELOPMENT_TEAM = JJ36HN239D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Pose analysis needs the camera";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

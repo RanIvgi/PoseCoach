@@ -12,7 +12,7 @@ struct ContentView: View {
             OverlayView(engine: engine, repCounter: repCounter)
                 .padding(12)
         }
-        .onAppear { engine.start() }     // object, not $engine
-        .onDisappear { engine.stop() }   // object, not $engine
+        .onAppear { engine.start() }  // object, not $engine
+        .onDisappear { engine.stop() }  // object, not $engine
     }
 }
